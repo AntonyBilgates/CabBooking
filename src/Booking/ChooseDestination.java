@@ -41,7 +41,7 @@ public final class ChooseDestination {
                 for (String route : routeMap.keySet()) {
                     System.out.println("   • " + route + " (" + routeMap.get(route) + " KM)");
                 }
-                System.out.println("\n🔁 Please try again.");
+                System.out.println("\nPlease try again.");
             }
         }
     }

@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public final class LogInPage {
 
-    public final void logIn(final Scanner scanner, final Map<String, String> UserDetails, final BookingDetails bookingDetails,
+    public void logIn(final Scanner scanner, final Map<String, String> UserDetails, final BookingDetails bookingDetails,
                             final ChooseDestination chooseDestination) {
 
 
