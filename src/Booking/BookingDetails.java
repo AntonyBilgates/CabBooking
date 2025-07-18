@@ -56,7 +56,6 @@ public final class BookingDetails {
                         cash.pay(scanner, chooseDestination);
                         flag = false;
                     }
-
                     default -> System.out.print("not valid . please try again ");
                 };
                 }
