@@ -19,7 +19,7 @@ public class CabBooking {
         final ChooseDestination chooseDestination = new ChooseDestination();
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Welcome to the Fast🚖 Cabs ");
+        System.out.println("Welcome to the Fast🚖🚕 Cabs ");
 
         try {
 
