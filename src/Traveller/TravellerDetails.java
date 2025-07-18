@@ -22,7 +22,7 @@ public final class TravellerDetails {
             System.out.print("👤 Name: ");
             name = scanner.nextLine();
             if (!name.trim().isEmpty()) break;
-            System.out.println("❌ Name cannot be empty.");
+            System.out.println("Name cannot be empty.");
         }
 
         // Gender: only Male or Female
@@ -30,7 +30,7 @@ public final class TravellerDetails {
             System.out.print("🚻 Gender (Male/Female): ");
             gender = scanner.nextLine();
             if (gender.equalsIgnoreCase("Male") || gender.equalsIgnoreCase("Female")) break;
-            System.out.println("❌ Please enter Male or Female.");
+            System.out.println("Please enter Male or Female.");
         }
 
         // Phone: must be 10 digits
@@ -38,7 +38,7 @@ public final class TravellerDetails {
             System.out.print("📞 Phone No: ");
             phoneNo = scanner.nextLine();
             if (phoneNo.matches("\\d{10}")) break;
-            System.out.println("❌ Invalid phone number. Must be 10 digits.");
+            System.out.println("Invalid phone number. Must be 10 digits.");
         }
 
         // Gmail validation
@@ -47,7 +47,7 @@ public final class TravellerDetails {
             email = scanner.nextLine();
             Validator validator = new Validator();
             if (validator.isValidEmail(email)) break;
-            System.out.println("❌ Invalid email. Must be a Gmail address.");
+            System.out.println("Invalid email. Must be a Gmail address.");
         }
 
         bookingDetails.showBookingDet(scanner, this, chooseDestination);
